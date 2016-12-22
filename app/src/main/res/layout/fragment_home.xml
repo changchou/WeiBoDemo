@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    tools:context="com.zhang.weibodemo.fragment.HomeFragment">
+
+    <include layout="@layout/include_titlebar" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_home"
+        style="@style/ListViewCommon"
+        android:dividerHeight="8dp" />
+
+</LinearLayout>
